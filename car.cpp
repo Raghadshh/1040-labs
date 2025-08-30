@@ -7,6 +7,7 @@ Car::Car(int yearmol, std::string m)
     speed = 0;
 }
 
+//returns car year model
 int Car::getyearmodel()
 {
         return yearModel;
