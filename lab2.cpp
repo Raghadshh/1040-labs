@@ -2,37 +2,9 @@
 
 #include <string>
 #include <iostream>
+#include "car.h"
+
 using namespace std;
-
-class Car{
-private:
-        int yearModel;
-        string make;
-        int speed;
-
-public:
-        Car (int yearmol, string m){
-                yearModel = yearmol;
-                make = m;
-                speed = 0;
-}
-        int getyearmodel(){
-                return yearModel;
-}
-        string getMake(){
-                return make;
-}
-        int getspeed(){
-                return speed;
-}
-        void accelerate(){
-                speed += 5;
-}
-        void brake()
-{
-                speed -= 5;
-}
-};
 
 int main(){
         Car car1(4,"Tesla"); 
