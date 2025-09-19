@@ -47,31 +47,7 @@ if (exists == false){
 
     
     
-    
 
-    // bool ExitLoop = false;
-    
-    // while (!ExitLoop)
-    // {
-    // cout<<"Enter student name: (enter x to exit)"<<endl;
-    // cin>>studentName;
-    //         if (studentName == "x"){
-    //         ExitLoop = true;
-    //         break; 
-    //     }
-    // cout<< studentGrades[studentName] << " orginal grade is "<< studentGrades.at(studentName)<<endl;
-    // }
-    
-
-    // cout<<"Enter student new grade:"<<endl;
-    // cin>>studentGrade;
-    // studentGrades[studentName] = studentGrade;
-    // cout<<studentGrades[studentName]<<" new grade is "<<studentGrades.at(studentName)<<endl;
-
-
-
-// grade, replace with new grade in map,
-// output new grade
 
 
 
