@@ -25,8 +25,8 @@ int main()
     cout << "Hourly Pay Rate: $" << num1.getPay() << endl;
 
     num1.setShift(2);
-    num1.setPay(25.00);
-    num1.setName("Bob");
+    num1.setPay(39.00);
+    num1.setName("Emma");
 
     cout << "\nUpdated Employee Info\n";
     cout << "---------------------\n";
