@@ -1,7 +1,8 @@
 #ifndef TIME_H 
 #define TIME_H
 
-class Time {
+class Time
+{
 private:
     int hours;
     int minutes;
@@ -24,4 +25,4 @@ public:
     static Time diff(Time start, Time end);
 };
 
-#endif 
+#endif

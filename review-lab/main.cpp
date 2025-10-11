@@ -2,7 +2,8 @@
 #include "time.h"
 using namespace std;
 
-int main() {
+int main()
+{
     int hh, mm, ss;
     int hhh, mmm, sss;
 
@@ -14,10 +15,10 @@ int main() {
     Time start(hh, mm, ss);
     Time end(hhh, mmm, sss);
 
-    cout << "Start: ";
+    cout << "Start:      ";
     start.display();
 
-    cout << "End: ";
+    cout << "End:        ";
     end.display();
 
     Time diff = Time::diff(start, end);
